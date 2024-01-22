@@ -27,7 +27,7 @@ export default async (req: NextApiRequest, res: NextApiResponse<Data>) => {
 
   try {
     await transporter.sendMail({
-      from: 'werk@tech-frontier.de',
+      from: 'textwerk@tech-frontier.de',
       to: 'info@tech-frontier.de', // Empfängeradresse
       subject: `Neue Nachricht von ${name}`,
       text: message,

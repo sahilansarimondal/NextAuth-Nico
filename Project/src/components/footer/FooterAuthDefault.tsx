@@ -35,7 +35,7 @@ export default function Footer() {
             fontSize={{ base: 'xs', md: 'sm' }}
             color={textColor}
             isExternal
-            href="https://werk.ai/"
+            href="https://textwerk.ai/"
           >
             Nutzungsbedingungen
           </Link>
@@ -51,7 +51,7 @@ export default function Footer() {
             fontSize={{ base: 'xs', md: 'sm' }}
             color={textColor}
             isExternal
-            href="https://werk.ai/"
+            href="https://textwerk.ai/"
           >
             Datenschutzerklärung
           </Link>
@@ -67,7 +67,7 @@ export default function Footer() {
             fontSize={{ base: 'xs', md: 'sm' }}
             color={textColor}
             isExternal
-            href="https://werk.ai/"
+            href="https://textwerk.ai/"
           >
             Mehr Infos
           </Link>
@@ -78,7 +78,7 @@ export default function Footer() {
             fontSize={{ base: 'xs', md: 'sm' }}
             color={textColor}
             isExternal
-            href="https://werk.ai/"
+            href="https://textwerk.ai/"
           >
             Rückgaberecht
           </Link>

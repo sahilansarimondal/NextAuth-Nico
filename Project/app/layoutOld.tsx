@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <Portal>
                   <Box>
                     <Navbar
-                      logoText={'werk.ai'}
+                      logoText={'textwerk.ai'}
                       brandText={getActiveRoute(routes, pathname)}
                       secondary={getActiveNavbar(routes, pathname)}
                     />

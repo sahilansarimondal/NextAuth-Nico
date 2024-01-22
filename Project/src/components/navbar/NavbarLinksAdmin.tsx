@@ -97,7 +97,7 @@ export default function HeaderLinks(props: {
         >
           {/* <Flex bgImage={navImage} borderRadius="16px" mb="28px" alt="" /> */}
           <Flex flexDirection="column">
-            <Link isExternal w="100%" href="https://werk.ai/">
+            <Link isExternal w="100%" href="https://textwerk.ai/">
               <Button
                 variant="primary"
                 py="20px"
@@ -111,7 +111,7 @@ export default function HeaderLinks(props: {
                 Hier entsteht noch mehr
               </Button>
             </Link>
-            <Link isExternal w="100%" href="https://werk.ai/">
+            <Link isExternal w="100%" href="https://textwerk.ai/">
               <Button
                 bg={buttonBg}
                 border="1px solid"
@@ -131,7 +131,7 @@ export default function HeaderLinks(props: {
                 Und noch mehr
               </Button>
             </Link>
-            <Link w="100%" isExternal href="https://werk.ai">
+            <Link w="100%" isExternal href="https://textwerk.ai">
               <Button
                 w="100%"
                 h="44px"

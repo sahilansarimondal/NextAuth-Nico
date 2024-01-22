@@ -37,7 +37,7 @@ export default function Footer() {
         {' '}
         &copy; {new Date().getFullYear()}
         <Text as="span" fontWeight="500" ms="4px">
-          werk.ai - Alle Rechte vorbehalten.
+          textwerk.ai - Alle Rechte vorbehalten.
         </Text>
       </Text>
       <List display="flex">
@@ -51,7 +51,7 @@ export default function Footer() {
             fontWeight="500"
             fontSize={{ base: 'xs', md: 'sm' }}
             color={textColor}
-            href="https://werk.ai/"
+            href="https://textwerk.ai/"
           >
             Homepage
           </Link>
@@ -66,7 +66,7 @@ export default function Footer() {
             fontWeight="500"
             fontSize={{ base: 'xs', md: 'sm' }}
             color={textColor}
-            href="https://werk.ai/"
+            href="https://textwerk.ai/"
           >
             Mehr Infos
           </Link>
@@ -81,7 +81,7 @@ export default function Footer() {
             fontWeight="500"
             fontSize={{ base: 'xs', md: 'sm' }}
             color={textColor}
-            href="https://werk.ai/"
+            href="https://textwerk.ai/"
           >
             Nutzungsbedingungen
           </Link>

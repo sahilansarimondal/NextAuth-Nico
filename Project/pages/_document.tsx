@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {/* eslint-disable */}
-        <title>werk</title>
+        <title>textwerk</title>
       </Head>
       <body suppressHydrationWarning={true}>
         <Main />
