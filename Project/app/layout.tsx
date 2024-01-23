@@ -14,16 +14,22 @@ import { Inter } from 'next/font/google'
 import '@/styles/App.css';
 import '@/styles/Contact.css';
 import '@/styles/Plugins.css';
+import { Session } from 'next-auth';
+
 import '@/styles/MiniCalendar.css';
 import SessionProvider from './SessionProvider';
 
+type Props = {
+  children: React.ReactNode;
+  session: Session | null;
+}
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({
   children,
   session
-}) {
+} : any ) {
   const pathname = usePathname();
   return (
     <html lang="de">
